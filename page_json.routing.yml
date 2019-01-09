@@ -1,0 +1,8 @@
+page_json.api:
+  path: '/page_json/{apikey}/{id}'
+  defaults:
+    _controller: '\Drupal\page_json\Controller\JsonController::jsonNode'
+    _title: 'Response'
+  requirements:
+    _permission: 'access content'
+    

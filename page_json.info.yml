@@ -1,0 +1,6 @@
+name: Page Json Module
+description: Creates an URL to get the node details in JSON format.
+package: Custom
+
+type: module
+core: 8.x
